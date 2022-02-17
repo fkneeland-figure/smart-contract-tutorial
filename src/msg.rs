@@ -20,6 +20,11 @@ pub enum ExecuteMsg {
     Purchase { id: String },
 }
 
+/// Migrate the contract.
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
+#[serde(rename_all = "snake_case")]
+pub struct MigrateMsg {}
+
 /// A message sent to query contract config state.
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
 #[serde(rename_all = "snake_case")]

@@ -6,7 +6,7 @@ use provwasm_std::{bind_name, NameBinding, ProvenanceMsg, ProvenanceQuery};
 use std::ops::Mul;
 
 use crate::error::ContractError;
-use crate::msg::{ExecuteMsg, InitMsg, QueryMsg};
+use crate::msg::{ExecuteMsg, InitMsg, MigrateMsg, QueryMsg};
 use crate::state::{config, config_read, State};
 
 /// Initialize the contract
