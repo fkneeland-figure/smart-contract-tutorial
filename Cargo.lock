@@ -596,7 +596,7 @@ dependencies = [
 
 [[package]]
 name = "tutorial"
-version = "1.0.0"
+version = "0.1.0"
 dependencies = [
  "cosmwasm-schema",
  "cosmwasm-std 1.0.0-beta5",
