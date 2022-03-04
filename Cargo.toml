@@ -3,6 +3,9 @@ name = "tutorial"
 version = "0.1.2"
 authors = ["fkneeland <fkneeland@figure.com>"]
 edition = "2018"
+license = "Apache-2.0"
+repository = "https://github.com/provenance-io/fkneeland-figure/smart-contract-tutorial"
+description = "A simple smart contract used for testing inside of the Provenance blockchain"
 
 exclude = [
   # Those files are rust-optimizer artifacts. You might want to commit them for convenience but they should not be part of the source code publication.
