@@ -412,6 +412,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "provwasm-tutorial"
+version = "0.1.2"
+dependencies = [
+ "cosmwasm-schema",
+ "cosmwasm-std 1.0.0-beta5",
+ "cosmwasm-storage",
+ "cw-storage-plus",
+ "cw2",
+ "provwasm-mocks",
+ "provwasm-std",
+ "schemars",
+ "serde",
+ "thiserror",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -592,22 +608,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "tutorial"
-version = "0.1.2"
-dependencies = [
- "cosmwasm-schema",
- "cosmwasm-std 1.0.0-beta5",
- "cosmwasm-storage",
- "cw-storage-plus",
- "cw2",
- "provwasm-mocks",
- "provwasm-std",
- "schemars",
- "serde",
- "thiserror",
 ]
 
 [[package]]

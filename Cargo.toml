@@ -1,5 +1,5 @@
 [package]
-name = "tutorial"
+name = "provwasm-tutorial"
 version = "0.1.2"
 authors = ["fkneeland <fkneeland@figure.com>"]
 edition = "2018"
